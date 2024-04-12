@@ -45,6 +45,8 @@ document.querySelector(".container").addEventListener("click", function (details
     }
 });
 
+// testing 1
+
 makeBubble();
 runTimer();
 getHit();
