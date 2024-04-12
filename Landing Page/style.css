@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    border: 2px solid #dadada;
+}
+
+.nav2{
+    display: flex;
+    /* background-color: green; */
+    gap: 4vw;
+    align-items: center;
+}
+
+.nav h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.nav h4{
+    font-size: 1vw;
+}
+
+.nav i{
+    font-size: 1.5vw;
+    display: none;
+    flex-wrap: 800;
+}
+
+.content{
+    height: calc(100% - 100px); /* to get perfect height 100%(main div) &  100px(nav div)*/
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    position: relative;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    background-color: blueviolet;
+}
+
+button{
+    font-size: 1.5vw;
+    padding: 1.3vw 2.3vw;
+    margin: 5vw;
+    color: #fff;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+@media (max-width:600px) {
+    .nav{
+        background-color: lightseagreen;
+        color: white;
+        padding: 0 5vw;
+    }
+    .nav h2{
+        font-size: 6vw;
+    }
+    .nav h4{
+        font-size: 4vw;
+        display: none;
+    }
+    .nav i{
+        font-size: 6vw;
+        display: block;
+    }
+}

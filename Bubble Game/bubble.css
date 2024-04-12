@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color:#fff;
+    position: relative;
+}
+
+.card{
+    overflow: hidden;
+    border-radius: 10px;
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+}
+
+.nav{
+    display: flex;
+    padding: 0px 30%;
+    justify-content: space-between;
+    align-items: center;
+    color: #FE4654;
+    height: 100px;
+    width: 100%;
+    background-color: #0F1922;
+}
+
+.scoreBox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.countBox{
+    color: #000;
+    font-weight: 700;
+    font-size: large;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    height: calc(100% - 100px);
+    padding: 20px;
+    background-color: #11202E;
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #000;
+    font-weight: 700;
+    background-color: #FE4654;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: #ffa5ad;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: #FE4654;
+}

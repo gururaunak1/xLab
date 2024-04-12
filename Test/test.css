@@ -1,0 +1,14 @@
+.bulb{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #000;
+
+}
+
+button{
+    margin: 25px;
+    padding: 10px 10px 10px 10px;
+    border: dashed;
+    border-radius: 10px;
+}
