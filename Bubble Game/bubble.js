@@ -34,7 +34,9 @@ function runTimer() {
 };
 
 document.querySelector(".container").addEventListener("click", function (details) {
-    var number = Number(details.target.textContent);
+    // enent listner bubble pr nhi lga sakte (both sare bubble h) isliye use parent pr lga diys container pr
+    // click krte he bubble pr event nhi milega tho vo uske parent container pr jayega vha se details layega
+    var number = Number(details.target.textContent);  // target is bubble mila or textContent uthaya appane
     if (number === hitRn) {
         increaseScore();
         makeBubble();
